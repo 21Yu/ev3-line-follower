@@ -1,6 +1,6 @@
 # EV3 Line-Following Robot 🤖
 
-A Python-based autonomous LEGO EV3 robot that follows colored lines using **PID control** and detects obstacles in real-time. This project demonstrates skills in **robotics, embedded programming, sensor integration, and control systems**, and is part of my portfolio for co-op applications.
+A Python-based autonomous LEGO EV3 robot that follows colored lines using **PID control** and detects obstacles in real-time. 
 
 ---
 
