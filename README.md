@@ -28,8 +28,3 @@ A Python-based autonomous LEGO EV3 robot that follows colored lines using **PID 
 - **Language:** Python (Pybricks MicroPython)
 - **Hardware:** LEGO Mindstorms EV3
 - **Libraries:** `pybricks` for motors and sensors
-
----
-
-## Project Structure
-
