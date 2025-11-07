@@ -6,13 +6,10 @@ A Python-based autonomous LEGO EV3 robot that follows colored lines using **PID 
 
 ## Demo
 
-### Following a Line
 ![Line Following](part1.gif)
 
-### Obstacle Detection
 ![Obstacle Detection](part2.gif)
 
-### PID Tuning in Action
 ![PID Tuning](part3.gif)
 
 ---
