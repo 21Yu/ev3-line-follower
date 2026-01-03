@@ -88,6 +88,8 @@ When an object is detected within 100 mm:
 - Checks the green color value
 - Executes a maneuver based on detected color
 
+---
+
 ## Behavior Summary
 
 | Condition | Action | 
@@ -96,6 +98,8 @@ When an object is detected within 100 mm:
 | Line lost | Rotate to search |
 | Obstacle + green | Push forward and maneuver |
 | Obstacle + blue/other | Turn 180° |
+
+---
 
 ## Tuning Parameters
 You may need to adjust these values depending on lighting and surface:
@@ -106,6 +110,8 @@ kpBlue = 35
 kiBlue = 55
 kdBlue = 65
 ```
+
+---
 
 ## Future Improvements
 - Dynamic PID tuning
