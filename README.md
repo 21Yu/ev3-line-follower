@@ -1,5 +1,6 @@
 # EV3 Line-Following Robot
 
+## Overview
 This project is a LEGO EV3 robot programmed with Pybricks MicroPython that follows a colored line using PID control, detects obstacles with an ultrasonic sensor, and performs different actions depending on the detected color. 
 
 ## Demo
