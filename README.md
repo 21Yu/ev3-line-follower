@@ -2,8 +2,6 @@
 
 This project is a LEGO EV3 robot programmed with Pybricks MicroPython that follows a colored line using PID control, detects obstacles with an ultrasonic sensor, and performs different actions depending on the detected color. 
 
----
-
 ## Demo
 
 ![Line Following](part1.gif)
@@ -11,8 +9,6 @@ This project is a LEGO EV3 robot programmed with Pybricks MicroPython that follo
 ![Obstacle Detection](part2.gif)
 
 ![PID Tuning](part3.gif)
-
----
 
 ## Features
 
@@ -24,8 +20,6 @@ This project is a LEGO EV3 robot programmed with Pybricks MicroPython that follo
   - Non-green (blue/other) → turn 180°
 - Modular logic suitable for expansion or tuning
 
----
-
 ## Hardware Requirements
 
 - LEGO EV3 Brick
@@ -35,14 +29,10 @@ This project is a LEGO EV3 robot programmed with Pybricks MicroPython that follo
 - Color Sensor → Port S1
 - Ultrasonic Sensor → Port S2
 
----
-
 ## Software Requirements
 
 - Pybricks MicroPython
 - EV3 firmware compatible with Pybricks
-
----
 
 ## Getting Started
 
@@ -50,8 +40,6 @@ This project is a LEGO EV3 robot programmed with Pybricks MicroPython that follo
 2. Connect motors and sensors according to the port assignments.
 3. Upload the Python script to the EV3.
 4. Place the robot on a blue line and start the program.
-
----
 
 ## How It Works
 
@@ -88,8 +76,6 @@ When an object is detected within 100 mm:
 - Checks the green color value
 - Executes a maneuver based on detected color
 
----
-
 ## Behavior Summary
 
 | Condition | Action | 
@@ -98,8 +84,6 @@ When an object is detected within 100 mm:
 | Line lost | Rotate to search |
 | Obstacle + green | Push forward and maneuver |
 | Obstacle + blue/other | Turn 180° |
-
----
 
 ## Tuning Parameters
 You may need to adjust these values depending on lighting and surface:
@@ -110,8 +94,6 @@ kpBlue = 35
 kiBlue = 55
 kdBlue = 65
 ```
-
----
 
 ## Future Improvements
 - Dynamic PID tuning
